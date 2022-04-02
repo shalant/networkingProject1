@@ -1,0 +1,26 @@
+* {
+    font-size: medium;
+}
+
+.background {
+    background-image: url("PaperCo (1).png");
+    background-repeat: repeat;
+}
+
+.logo {
+    height: 6rem;
+    width: 9rem;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.center-col {
+    margin: auto;
+}
+
+.main-part {
+    width: 800px;
+    height: 800rem;
+}
