@@ -1,10 +1,8 @@
-* {
-    font-size: medium;
-}
-
 .background {
     background-image: url("PaperCo (1).png");
     background-repeat: repeat;
+    height: 100vh;
+    border: 1px red dotted;
 }
 
 .logo {
@@ -12,15 +10,45 @@
     width: 9rem;
 }
 
+.nav-text {
+    font-size: x-large;
+}
+
+.title {
+    padding: 3rem 5rem 3rem 5rem;
+}
+
 .title h1 {
     text-align: center;
 }
 
-.center-col {
-    margin: auto;
+.lucid {
+    width: 100rem; 
+    height: 100rem; 
 }
 
+
 .main-part {
-    width: 800px;
-    height: 800rem;
+    padding-top: 0;
+    margin-top: 0;
+    display: block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 100%;
+    height: auto;
 }
+
+
+/* -------RESPONSIVE-------- */
+
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+    }
+    
+    .main-part {
+
+    }
+  }
